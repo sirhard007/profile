@@ -1,0 +1,110 @@
+*, *::after  *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    max-width: 500px;
+    margin: auto;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    border-radius: 10px;
+}
+.card img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.image{
+    /* background-color: aqua; */
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 120px;
+    margin-top: -60px;
+}
+.pics img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 7px solid white;
+}
+.name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 106px;
+    margin-top: -35px;
+
+}
+.name h6{
+    font-size: 20px;
+}
+.name > p{
+    color: gray;
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+}
+.place p{
+    color: gray;
+    font-size: 14px;
+}
+.line{
+    background-color: #d9d9d9;
+    height: 0.2px;
+    margin-top: 5px;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.followers{
+    align-items: center;
+    justify-content: space-around;
+}
+.nums,.likes,.photos p{
+    font-size: 10px;
+    color: gray;
+}
+.num,.like,.photo{
+    margin-bottom: 0;
+}
+.nums,.likes,.photos {
+    margin-top: 0;
+}
